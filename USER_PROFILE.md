@@ -195,10 +195,16 @@ Always include:
 ## 📁 Common Project Locations
 
 ### Windows
-- **Active Projects:** `C:\Users\frank\OneDrive - Central Baptist Church\Documents\3-Source\`
-- **Python Scripts:** `C:\Users\frank\OneDrive - Central Baptist Church\Documents\3-Source\Python Scripts\`
-- **Skills Repository:** `C:\Users\frank\claude-skills\`
+- **Projects Root:** `C:\Users\frank\Projects\`
+- **Active Work:** `C:\Users\frank\Projects\Active\`
+- **Production Tools:** `C:\Users\frank\Projects\Production\Tools\`
+- **Client Work:** `C:\Users\frank\Projects\Client-Work\`
+- **Skills Repository:** `C:\Users\frank\Projects\Production\Tools\claude-skills\`
 - **Logs:** `C:\Users\frank\CodeOrganization_Logs\`
+
+### Legacy Locations (Being Organized)
+- **Old Projects:** `C:\Users\frank\OneDrive - Central Baptist Church\Documents\3-Source\`
+- **To Be Scanned:** Run code-organizer to catalog and organize
 
 ### Git Configuration
 - **Global user.name:** (configured in git config)
