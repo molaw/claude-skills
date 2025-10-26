@@ -1,0 +1,15 @@
+Brief description (50 characters or less)
+
+Detailed explanation of changes (wrap at 72 characters):
+- What changed and why
+- Important implementation details
+- Breaking changes or notable impacts
+
+Technical details:
+- Dependencies added/removed
+- Configuration changes
+- Performance considerations
+
+Generated with Claude Code (claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
