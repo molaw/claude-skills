@@ -1,0 +1,133 @@
+# CLAUDE.md
+
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+
+## 🔗 Global Instructions
+
+**This project follows global LLM instructions from:**
+https://github.com/molaw/claude-skills/blob/main/LLM_INSTRUCTIONS.md
+
+Key points:
+- ✅ Use `uv` for Python package management
+- ✅ Projects organized in `C:\Users\frank\Projects\`
+- ✅ Follow USER_PROFILE.md preferences
+- ✅ Reference skills from claude-skills repository
+
+## 📚 Skills Reference
+
+Relevant skills for this project:
+- [GitHub Repository Management](https://github.com/molaw/claude-skills/blob/main/github/repository-management.md)
+- [User Profile & Preferences](https://github.com/molaw/claude-skills/blob/main/USER_PROFILE.md)
+- [LLM Instructions](https://github.com/molaw/claude-skills/blob/main/LLM_INSTRUCTIONS.md)
+
+## 📋 Project Overview
+
+**[Replace with brief project description]**
+
+**Purpose:** [What this project does]
+
+**Technology Stack:**
+- Python 3.12
+- uv for package management
+- [Add other dependencies]
+
+## 🛠️ Development Commands
+
+### Setup
+```bash
+# Install dependencies
+uv sync
+
+# Activate environment (automatic with uv run)
+```
+
+### Running
+```bash
+# Run main script
+uv run python main.py
+
+# Run with arguments
+uv run python main.py --option value
+```
+
+### Testing
+```bash
+# Run tests
+uv run pytest
+
+# Run with coverage
+uv run pytest --cov
+```
+
+### Other Commands
+```bash
+# [Add project-specific commands]
+```
+
+## 🏗️ Architecture
+
+**[Describe high-level architecture]**
+
+### Project Structure
+```
+project-name/
+├── package_name/       # Main package
+│   ├── __init__.py
+│   ├── main.py
+│   └── [modules]/
+├── tests/             # Test suite
+├── .gitignore
+├── pyproject.toml
+└── README.md
+```
+
+### Key Components
+- **[Component 1]:** [Description]
+- **[Component 2]:** [Description]
+
+## ⚠️ Important Constraints
+
+**[Add project-specific constraints, requirements, or gotchas]**
+
+Example:
+- This tool must never modify files in Phase 1 (read-only)
+- All git operations require user confirmation
+- Security secrets must be in .gitignore
+
+## 🎯 Project-Specific Guidelines
+
+**[Add any project-specific conventions or requirements]**
+
+### Code Style
+- [Any deviations from global standards]
+
+### Testing Requirements
+- [Specific testing needs]
+
+### Documentation
+- [Special documentation requirements]
+
+## 🔄 Workflow Notes
+
+**[Add notes about development workflow specific to this project]**
+
+### Common Tasks
+- **[Task 1]:** `[command]`
+- **[Task 2]:** `[command]`
+
+### Deployment
+- **[Deployment process if applicable]**
+
+## 📝 Notes for Future Development
+
+**[Add any notes for future work, known issues, or TODOs]**
+
+- [ ] Feature to implement
+- [ ] Known issue to fix
+- [ ] Technical debt to address
+
+---
+
+**Last Updated:** [Date]
+**Status:** [Active Development / Production / Archived]
+**Maintained By:** Frank (molaw)

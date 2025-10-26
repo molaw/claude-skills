@@ -17,6 +17,19 @@ This repository serves as a **knowledge base** that Claude Code can reference in
 **GitHub Profile:** https://github.com/molaw
 **Skills Repository:** https://github.com/molaw/claude-skills
 
+## 🎓 Global LLM Instructions
+
+**[LLM_INSTRUCTIONS.md](./LLM_INSTRUCTIONS.md)** - Universal instructions for ALL projects
+
+This file contains global preferences that apply everywhere:
+- Python projects: Always use `uv`
+- Project organization: `C:\Users\frank\Projects\` structure
+- Required files: README.md, CLAUDE.md, .gitignore
+- Code style, security, git conventions
+- Testing and deployment standards
+
+**Claude Code should read this file at the start of every project!**
+
 ## 📚 Available Skills
 
 ### 🔧 Development & Tools
